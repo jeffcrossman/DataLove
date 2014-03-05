@@ -1,0 +1,33 @@
+<!-- python -m SimpleHTTPServer 8888 & -->
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<title>For the love of data</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="lightstring.js" charset="utf-8"></script>
+		<script src="moment.js" charset="utf-8"></script>
+		<script src="main.js" charset="utf-8"></script>
+		<style>
+			body {
+	            margin: 0;
+	            padding: 0;
+	            background: rgb(8, 8, 12);
+	            color: #777777;
+	            font-size: 12px;
+	            font-family: Arial, Helvetica, sans-serif;
+	            -webkit-user-select: none;
+        	}
+        	canvas {
+            	position: absolute;
+        	}
+        	svg {
+            	position: absolute;
+        	}
+		</style>
+	</head>
+	<body>
+		<canvas id="mainCanvas"></canvas>
+		<svg id="mainSVG"></svg>
+	</body>
+</html>
